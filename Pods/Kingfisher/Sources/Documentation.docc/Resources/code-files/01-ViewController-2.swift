@@ -1,19 +1,11 @@
-//
-//  ViewController.swift
-//  parseTemplate
-//
-//  Created by Melike on 28.03.2025.
-//
-
 import UIKit
+import Kingfisher
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        print(KingfisherManager.shared)
     }
-
-
 }
-

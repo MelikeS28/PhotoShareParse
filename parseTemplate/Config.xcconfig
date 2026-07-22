@@ -1,0 +1,13 @@
+//
+//  Config.xcconfig
+//  parseTemplate
+//
+//  Created by Melike on 22.07.2026.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://developer.apple.com/documentation/xcode/adding-a-build-configuration-file-to-your-project
+
+PARSE_APP_ID = ZuT6vTSyXouc2O3z88omWG1lJJwNbY7hGDCG6ISu
+PARSE_CLIENT_KEY = e5qC9Z2wDiXql1KHWXPr0mU1YdAWUTbTuVlseQhb
+PARSE_SERVER_URL = https:/$()/parseapi.back4app.com/

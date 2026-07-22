@@ -2,8 +2,20 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSPhotoLibraryUsageDecription</key>
+	<string>&quot;Fotoğraflarınıza erişim gerekmektedir.&quot;</string>
+	<key>PARSE_SERVER</key>
+	<string>$(PARSE_SERVER)</string>
+	<key>CFBundleIdentifier</key>
+	<string></string>
+	<key>PARSE_APP_ID</key>
+	<string>$(PARSE_APP_ID)</string>
+	<key>PARSE_CLIENT_KEY</key>
+	<string>$(PARSE_CLIENT_KEY)</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
+		<key>UIApplicationSupportsTabbedSceneCollection</key>
+		<false/>
 		<key>UIApplicationSupportsMultipleScenes</key>
 		<false/>
 		<key>UISceneConfigurations</key>

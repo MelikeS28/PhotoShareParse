@@ -1,0 +1,26 @@
+PODS:
+  - Bolts/Tasks (1.9.1)
+  - Kingfisher (8.7.0)
+  - Parse (1.19.4):
+    - Parse/Core (= 1.19.4)
+  - Parse/Core (1.19.4):
+    - Bolts/Tasks (= 1.9.1)
+
+DEPENDENCIES:
+  - Kingfisher
+  - Parse
+
+SPEC REPOS:
+  trunk:
+    - Bolts
+    - Kingfisher
+    - Parse
+
+SPEC CHECKSUMS:
+  Bolts: 8c1e8aab2f603387b8b9924f57d1d64f43d3ffdc
+  Kingfisher: 649489bb8748428fa1db7de1479acb7c78d2469d
+  Parse: 6d572042e2c171414c677acabcd9bab7bbf51264
+
+PODFILE CHECKSUM: 17a4d77de55ec91327f44ffead16865c40a898d1
+
+COCOAPODS: 1.16.2

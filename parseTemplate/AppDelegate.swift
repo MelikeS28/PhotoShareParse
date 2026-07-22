@@ -6,17 +6,32 @@
 //
 
 import UIKit
-
+import Parse
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        return true
-    }
 
+            guard
+                let appId = Bundle.main.object(forInfoDictionaryKey: "PARSE_APP_ID") as? String,
+                let clientKey = Bundle.main.object(forInfoDictionaryKey: "PARSE_CLIENT_KEY") as? String,
+                let server = Bundle.main.object(forInfoDictionaryKey: "PARSE_SERVER") as? String
+            else {
+                fatalError("Parse configuration not found.")
+            }
+
+            let config = ParseClientConfiguration { parseConfig in
+                parseConfig.applicationId = appId
+                parseConfig.clientKey = clientKey
+                parseConfig.server = server
+            }
+
+            Parse.initialize(with: config)
+
+            return true
+        }
+    }
+    
     // MARK: UISceneSession Lifecycle
 
     func application(_ application: UIApplication, configurationForConnecting connectingSceneSession: UISceneSession, options: UIScene.ConnectionOptions) -> UISceneConfiguration {
