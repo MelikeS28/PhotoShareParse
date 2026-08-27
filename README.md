@@ -8,11 +8,11 @@
 
 | Login & Sign Up | Error Alert | Photo Selection |
 | :---: | :---: | :---: |
-| <img src="screenshots/HomeVC_4.png" width="220"> | <img src="screenshots/SignUpError.png" width="220"> | <img src="screenshots/imageSelected.png" width="220"> |
+| <img src="HomeVC.png" width="220"> | <img src="SignUpError.png" width="220"> | <img src="imageSelected.png" width="220"> |
 
 | Upload Post | Success Alert | Main Feed |
 | :---: | :---: | :---: |
-| <img src="screenshots/uploadPost.png" width="220"> | <img src="screenshots/uploadPostSuccess.png" width="220"> | <img src="screenshots/FeedVC2.png" width="220"> |
+| <img src="uploadPost.png" width="220"> | <img src="uploadPostSuccess.png" width="220"> | <img src="FeedVC2.png" width="220"> |
 
 ---
 
