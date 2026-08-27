@@ -8,7 +8,7 @@
 
 Login / Sign Up Screen | User Input | Error Alert |
 | :---: | :---: | :---: |
-| <img src="HomeVC.png" width="220"> | <img src="userSignUp.jpg" width="220"> | <img src="SignUpError.png" width="220"> |
+| <img src="HomeVC.png" width="220"> | <img src="userSignUp.png" width="220"> | <img src="SignUpError.png" width="220"> |
 
 | Photo Selection | Upload Post | Success Alert | Main Feed |
 | :---: | :---: | :---: | :---: |
