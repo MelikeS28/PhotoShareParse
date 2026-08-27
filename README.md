@@ -6,13 +6,13 @@
 
 ##  Screenshots
 
-| Login & Sign Up | Error Alert | Photo Selection |
+Login / Sign Up Screen | User Input | Error Alert |
 | :---: | :---: | :---: |
-| <img src="HomeVC.png" width="220"> | <img src="SignUpError.png" width="220"> | <img src="imageSelected.png" width="220"> |
+| <img src="Home.png" width="220"> | <img src="userSignUp.jpg" width="220"> | <img src="SignUpError.png" width="220"> |
 
-| Upload Post | Success Alert | Main Feed |
-| :---: | :---: | :---: |
-| <img src="uploadPost.png" width="220"> | <img src="uploadPostSuccess.png" width="220"> | <img src="FeedVC2.png" width="220"> |
+| Photo Selection | Upload Post | Success Alert | Main Feed |
+| :---: | :---: | :---: | :---: |
+| <img src="imageSelected.png" width="200"> | <img src="uploadPost.png" width="200"> | <img src="uploadPostSuccess.png" width="200"> | <img src="FeedVC2.png" width="200"> |
 
 ---
 
