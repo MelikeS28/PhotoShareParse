@@ -5,7 +5,7 @@
 	<key>NSPhotoLibraryUsageDecription</key>
 	<string>&quot;Fotoğraflarınıza erişim gerekmektedir.&quot;</string>
 	<key>PARSE_SERVER</key>
-	<string>$(PARSE_SERVER)</string>
+	<string>$(PARSE_SERVER_URL)</string>
 	<key>CFBundleIdentifier</key>
 	<string></string>
 	<key>PARSE_APP_ID</key>
